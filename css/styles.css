@@ -8,6 +8,9 @@ h1, h2, h3, p, ul {
     padding: 0;
 }
 
+.header {
+    border: 1px solid #ECECEC
+}
 .container {
     width: 1230px;
     margin: 0 auto;
@@ -33,9 +36,12 @@ h1, h2, h3, p, ul {
 }
 .logo-span {
     color: #2196F3;
+    
 }
 .logo-studio {
     color: white;
+    display: inline-block;
+    padding-top: 50px;
 }
 
 .nav-list {
@@ -119,6 +125,10 @@ h1, h2, h3, p, ul {
     
 }
 
+.two-item:last-child {
+    margin-right: 0px;
+}
+
 .two-title {
     font-weight: bold;
     font-size: 14px;
@@ -150,8 +160,21 @@ h1, h2, h3, p, ul {
     display: flex;
     justify-content: space-between;
 }
-.three-item {
+
+.img {
     display: block;
+}
+.three-item {
+    margin-right: 30px;
+}
+
+.three-item:last-child {
+    margin-right: 0px;
+}
+
+.part-four {
+    background-color:  #F5F4FA;
+;
 }
 
 .four-title {
@@ -161,9 +184,22 @@ h1, h2, h3, p, ul {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-bottom: 50px;
 }
 .four-list {
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.four-item {
+    margin-right: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.four-item:last-child {
+    margin-right: 0px;
 }
 
 .title-name {
@@ -173,6 +209,8 @@ h1, h2, h3, p, ul {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 .title-prof {
     font-size: 16px;
@@ -180,6 +218,7 @@ h1, h2, h3, p, ul {
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
+    padding-bottom: 30px;
 }
 
 .footer {
